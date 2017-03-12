@@ -7,15 +7,6 @@ const config = {
   log_dir: 'logs',
   logs: {
     access_log: 'logs/access.log'
-  },
-  db: {
-    connectionLimit : 2,
-    host : 'benative-global-master-seoul.ceml7tdcpt0o.ap-northeast-2.rds.amazonaws.com',
-    user : 'benative',
-    password : 'tmakxntm%^',
-    database : 'benative_bn_ko',
-    multipleStatements : true,
-    debug : false
   }
 };
 
